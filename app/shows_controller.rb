@@ -9,3 +9,11 @@ end
 def lowest_rating
   Show.minimum(:rating)
 end
+
+def least_popular_show
+  lowest_rating
+end
+
+def ratings_sum
+  Show.sum(:rating)
+end
